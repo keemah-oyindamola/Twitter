@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    display: flex;
+    font-family:'Times New Roman', Times, serif ;
+    /* position: relative; */
+    
+}
+nav{
+    padding: 10px 0px 0px 100px;
+    width: 20%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    background-attachment: scroll;
+    font-family: 'Times New Roman', Times, serif;
+    overflow-y: auto ;
+    /* background-color: rebeccapurple; */
+    
+}
+nav img{
+    height: 30px;
+}
+a{
+    text-decoration: none;
+}
+nav button{
+    width: 120px;
+    color: rgba(0, 0, 0, 0.521);
+    height: 45px;
+    background-color: transparent;
+    border: none;
+    font-size: 17px;
+    margin: 20px 0 0 0px;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    /* transition: all 1s ease; */
+}
+.notifications{
+    width: 150px;
+    display: flex;
+}
+.notif{
+    width: 200px;
+    display: flex;
+}
+.post{
+    width: 200px;
+    color: white;
+    height: 40px;
+    background-color: rgb(29,155,240);
+    border: none;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 20px;
+    transition: all 1s ease ; 
+}
+.post:hover{
+    color: blue;
+}
+.List{
+   padding-right: 20px;
+}
+.Grok{
+    padding-right: 15px;
+}
+.mohe{
+    color: black;
+}
+i{
+    color: black;
+    font-size: 20px;
+}
+span{
+    color: black;
+    font-size: 20px;
+}
+.home button{
+    margin-top: px;
+}
+nav button:hover{
+    border-radius: 20px;
+    background-color: rgba(230, 222, 222, 0.63);
+    cursor: pointer;
+}
+nav button:focus{
+    color:  black; 
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.serch{
+    margin-top: 10px;
+}
+#hh{
+    font-size: 30px;
+    color: blue;
+}
+#pd{
+    font-size: 13px;
+    color: black;
+}
+
+
+
+
+
+
+
+.second-section{
+    padding: 0px 0px 0px 0px;
+    width: 49%;
+    height: 100%;
+    background-attachment: scroll;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: red; */
+}
+.profile{
+    width: 630px;
+    height: 200px;
+    background-color: rgba(230, 222, 222, 0.63);
+    /* background-color: rosybrown; */
+    /* background-color: red; */
+
+}
+.mine{
+    display: flex;
+    align-items: center;
+}
+#arrow{
+    padding-left: 10px;
+}
+.ssh{
+    padding-left: 30px;
+}
+.profile i{
+    border-radius: 20px;
+    height: 100px;
+    font-size: 80px;
+    color: blue;
+    margin-top: 160px;
+    margin-left: 30px;
+}
+
+.dd{
+    font-size: 15px;
+    color: black;
+    padding-left: 10px;
+}
+.Edit button{
+    width: 120px;
+    color:  black;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid rgba(26, 25, 25, 0.521);
+    font-size: 17px;
+    border-radius: 20px;
+    margin: 10px 0 0 400px;
+    box-sizing: border-box;
+}
+.Edit button:hover{
+    background-color: rgba(230, 222, 222, 0.63);
+    cursor: pointer;
+}
+.down .nn{
+    padding: 30px 0 0 10px;
+}
+.bola{
+    padding: 5px 0 0 10px;
+}
+.note{
+    display: flex;
+    align-items: center;
+    padding: 20px 0 0px 10px;
+}
+.note span{
+    /* padding-bottom: 30px; */
+}
+.follp{
+    padding:15px 0 0px 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Likes{
+    color: rgba(26, 25, 25, 0.521);
+    display: flex;
+    align-items: center;
+}
+.Likes button{
+    width: 170px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box; 
+    /* margin: 30px 0 0 10px; */
+    background-color: transparent;
+
+}
+.Likes button:hover{
+    background-color: rgba(230, 222, 222, 0.63);
+}
+.to{
+    padding-left: 20px;
+}
+.flow{
+    width: 100px;
+    height: 30px;
+    margin-left: 450px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+aside{
+    padding: 0px 0px 0px 0px;
+    margin-left: 35px;
+    width: 28%;
+    height: 100%;
+    position: sticky;
+    top: 0;
+    background-attachment: scroll;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: blue; */
+}
+#xx{
+    color: yellow;
+}
+.air{
+    padding: 20px 0px 0px 20px;
+    cursor: pointer;
+    /* display: flex;
+    align-items: center; */
+}
+.airtelw{
+    display: flex;
+}
+.airtelw p{
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.airtelw img{
+    height: 30px;
+    border-radius: 20px;
+}
+.flw{
+    width: 100px;
+    height: 30px;
+    margin-left: 50px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    /* padding: 10px;  */
+}
+.who{
+    width: 300px;
+    height: 260px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    background-color: rgba(230, 222, 222, 0.63);
+}
+.Cookie{
+    display: flex;
+    color: rgba(26, 25, 25, 0.521);
+    font-size: 15px;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.Cookie a:hover{
+    text-decoration: underline;
+}
+.ads a:hover{
+    text-decoration: underline;
+}
+.who h1{
+    padding-left: 20px;
+}
+.ads{
+    display: flex;
+    color: rgba(26, 25, 25, 0.521);
+    font-size: 15px;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 20px;
+    cursor: pointer;
+}
+.more{
+    color: rgb(29,155,240);
+    padding: 10px 0px 0px 10px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.more:hover{
+    background-color: rgba(230, 222, 222, 0.63);
+    cursor: pointer;
+}

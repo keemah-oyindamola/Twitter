@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding: 0px 0px 0px 100px;
+    width: 20%;
+    height: 90vh;
+    background-attachment: scroll;
+    font-family: 'Times New Roman', Times, serif;
+    overflow-y: auto ; 
+}
+.second{
+    width: 60%;
+    align-items: center;
+    display: flex;
+    background-color: red;
+    background-attachment: scroll;
+
+}
+section{
+    align-items: center;
+    display: flex;
+}
+section button{
+    margin-left: 230px;
+    /* margin-top: 20px; */
+    
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 30px;
+    color: black;
+    height: 45px;
+    background-color: transparent;
+    border:  none;
+    /* border: 2px solid rgba(0, 0, 0, 0.521); */
+    /* border-bottom: blue; */
+    font-size: 17px;
+    /* justify-content: space-evenly; */
+    box-sizing: border-box;
+    /* display: flex; */
+    align-items: center;
+}
+#settings{
+    margin-left: 20px;
+}
+.Following{
+    margin-left: 80px;
+}
+section button:hover{
+    cursor: pointer;
+    background-color: rgba(230, 222, 222, 0.63);
+}
+section button:focus{
+    color: black;
+}
+section img{
+    /* padding-top: 20px; */
+    padding-left: 100px;
+    height: 30px;
+}
+section button{
+    /* margin-left: 500px; */
+}
+nav img{
+    height: 30px;
+}
+a{
+    text-decoration: none;
+}
+nav button{
+    width: 120px;
+    color: rgba(0, 0, 0, 0.521);
+    height: 45px;
+    background-color: transparent;
+    border: none;
+    font-size: 17px;
+    margin: 20px 0 0 0px;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    transition: all 1s ease;
+}
+.notifications{
+    width: 150px;
+    display: flex;
+}
+.notif{
+    width: 200px;
+    display: flex;
+}
+.post{
+    width: 200px;
+    color: white;
+    height: 40px;
+    background-color: rgb(29,155,240);
+    border: none;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 20px;
+    transition: all 1s ease ; 
+}
+.post:hover{
+    color: blue;
+}
+.List{
+   padding-right: 20px;
+}
+.Grok{
+    padding-right: 15px;
+}
+.mohe{
+    color: black;
+}
+i{
+    color: black;
+    font-size: 20px;
+}
+span{
+    color: black;
+    font-size: 20px;
+}
+.home button{
+    margin-top: px;
+}
+nav button:hover{
+    border-radius: 20px;
+    background-color: rgba(230, 222, 222, 0.63);
+    cursor: pointer;
+}
+nav button:focus{
+    color:  black; 
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.serch{
+    margin-top: 10px;
+}
+#hh{
+    font-size: 30px;
+    color: blue;
+}
+#pd{
+    font-size: 13px;
+    color: black;
+}
